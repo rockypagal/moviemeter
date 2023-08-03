@@ -1,8 +1,24 @@
-# React + Vite
+void main(){
+   var arr = [44,3,5,24,533,5];
+   
+   arr.forEach((item){
+       print(item);
+   });
+}
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+void main(){
+   laptop l = new laptop();
+   
+   print(l.name);
+   l.printLaptop();
+   
+}
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+class laptop {
+    var name= 'umang';
+    void printLaptop(){
+        print('hello');
+    }
+}
